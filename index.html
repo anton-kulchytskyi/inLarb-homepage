@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inlarbstyle.css">
+    <link rel="stylesheet" href="inlarbmedia-queris.css">
+    <script src="https://kit.fontawesome.com/38480bbb0b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spartan">
+    <title>inLarb</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="navIcons">
+            <a href="inlarb.html"><i class="fas fa-home"></i></a>
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-bullhorn"></i></a>
+            <a href="#"><i class="fas fa-chalkboard-teacher"></i></a>
+            <a href="#"><i class="fas fa-cogs"></i></a>
+        </div>
+        <div id="navIconsBottom">
+            <a href="inlarb.html"><i class="fas fa-home"></i></a>
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-bullhorn"></i></a>
+            <a href="#"><i class="fas fa-chalkboard-teacher"></i></a>
+            <a href="#"><i class="fas fa-cogs"></i></a>
+        </div>
+        <main>
+        <header>
+            <div id="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+            <div id="nav-user">
+                <nav id="nav">
+                    <div id="navEvent">
+                        <a href="#" class="show-hide">Create Event</a>                 
+                    </div>
+                    <div id="navWallet">
+                        <a href="#" class="show-hide">My Wallet</a>                
+                    </div>
+                    <div id="hide-show">
+                        <a href="#"><i class="far fa-calendar-check"></i></a>
+                        <a href="#"><i class="fas fa-wallet"></i></a>
+                    </div>
+                </nav>
+                <div id="user" onclick="openNav()">
+                    <img src="iconuser.png" alt="userphoto" class="user-header">
+                    <p>Username</p>
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="user-account">
+                        <img src="iconuser.png" alt="userphoto" class="user-sidenav">
+                        <p>Username / Last name</p>
+                        <p>user@gmail.com</p>
+                    </div>                
+                    <a href="#"><i class="far fa-address-card"></i>Account details</a>
+                    <a href="#"><i class="fas fa-bullhorn"></i>Dashboard</a>
+                    <a href="#"><i class="far fa-question-circle"></i>Support</a>
+                    <a href="#"><i class="fas fa-sign-out-alt"></i>Sing out</a>
+                </div>
+            </div>                       
+        </header>
+            <section>
+                <div id="top-events">
+                    <div class="slideshow-container">
+                        <div class="top-event mySlides fade">
+                            <img src="concert-slide.jpg">
+                            <div class="slide-text">
+                                <p class="top-event-date">05.08.2020</p>
+                                <p class="top-event-title">Mega Event</p>
+                                <p class="top-event-about">Conference 2020</p>
+                                <a href="#">See more</a>
+                            </div>
+                        </div>
+                        <div class="top-event mySlides fade">
+                            <img src="fairground-slide.jpg">
+                            <div class="slide-text">
+                                <p class="top-event-date">16.07.2020</p>
+                                <p class="top-event-title">Fest</p>
+                                <p class="top-event-about">Rock&Jazz</p>
+                                <a href="#">See more</a>
+                            </div>
+                        </div>
+                        <div class="top-event mySlides fade">
+                            <img src="soccer-slide.jpg">
+                            <div class="slide-text">
+                                <p class="top-event-date">06.09.2020</p>
+                                <p class="top-event-title">Concert</p>
+                                <p class="top-event-about">Party 2020</p>
+                                <a href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="row">
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="jazz.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="concert.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="musician.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="sparkler.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="musician.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="sparkler.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="jazz.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="sparkler.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="musician.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="concert.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="sparkler.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="jazz.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="concert.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="musician.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="musician.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="event">
+                        <div class="event-container">
+                           <img src="jazz.jpg" alt="musician" class="event-photo">
+                            <div class="event-text">
+                                <div class="event-date">
+                                    <p>05<sup>Aug</sup></p>
+                                </div>
+                                <i class="fas fa-calendar"></i>
+                                <a href="#"><i class="far fa-thumbs-up"></i></a>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="event-title">
+                                    <p>Dark Party Night</p>
+                                </div>
+                            </div> 
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+            <footer>
+                <p>&copy; inLarb 2020</p>
+            </footer>
+        </main>        
+    </div>
+    <script src="inlarbjavascript.js"></script>
+</body>
+</html>
