@@ -1,683 +1,685 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" integrity="sha256-13EKEXRsynh3cmmNF1dlW6uvoC1SZVaW94bIHZQJoMU=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha256-OweaP/Ic6rsV+lysfyS4h+LM6sRwuO3euTYfr6M124g=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>inLarb - Homepage</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" integrity="sha256-13EKEXRsynh3cmmNF1dlW6uvoC1SZVaW94bIHZQJoMU=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha256-OweaP/Ic6rsV+lysfyS4h+LM6sRwuO3euTYfr6M124g=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/38480bbb0b.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>inLarb - Homepage</title>
 </head>
 <body>
-    <header>
-        <!--Navigation in header-->
-        <nav class="transparent">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <a href="#!" class="brand-logo left"><img class="responsive-img" src="logo_white.png"></a>
-                    <a href="#" data-target="mobile" class="sidenav-trigger right hide-on-med-and-up"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-small-only">
-                        <li><a href="#">Explore</a></li>
-                        <li><a href="#">Dashboard</a></li>
-                        <li><a href="#">Create an event</a></li>
-                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Hello, Username<i class="material-icons right">arrow_drop_down</i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Sidenav for small (mobile) screen-->    
-        <ul class="sidenav" id="mobile">
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Create an event</a></li>
-            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Hello, Username<i class="material-icons right">arrow_drop_down</i></a></li>
-        </ul>
-        <!--Dropdown with user account settings-->
-        <ul id="dropdown1" class="dropdown-content">
-            <li><a href="#!">one</a></li>
-            <li><a href="#!">two</a></li>
-            <li><a href="#!">three</a></li>
-        </ul>
-    </header>
-    <main>
-        <div class="container">
-            <div class="row">
-                <!--Leftside navigation with icons start-->
-                <div class="col m1 hide-on-small-only">
-                    <a href="#" class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-.61.08-1.21.21-1.78L8.99 15v1c0 1.1.9 2 2 2v1.93C7.06 19.43 4 16.07 4 12zm13.89 5.4c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41C17.92 5.77 20 8.65 20 12c0 2.08-.81 3.98-2.11 5.4z"/></svg>Home</a>
-                    <a href="#" class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>Search</a>
-                    <a href="#" class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><g><rect fill="none" height="24" width="24"/></g><g><g><rect height="2" width="15" x="2" y="4"/><path d="M15,17h2v-3h1v-2l-1-5H2l-1,5v2h1v6h9v-6h4V17z M9,18H4v-4h5V18z M3.04,12l0.6-3h11.72l0.6,3H3.04z"/><polygon points="23,18 20,18 20,15 18,15 18,18 15,18 15,20 18,20 18,23 20,23 20,20 23,20"/></g></g></svg>Market</a>
-                    <a href="#" class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#B6B7B9" width="60px" height="60px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M21 7.28V5c0-1.1-.9-2-2-2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-2.28c.59-.35 1-.98 1-1.72V9c0-.74-.41-1.37-1-1.72zM20 9v6h-7V9h7zM5 19V5h14v2h-6c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h6v2H5z"/><circle cx="16" cy="12" r="1.5"/></svg>Wallet</a>
-                </div>
-                <!--Leftside navigation with icons end-->
-                <!--Buttom navigation with icons for small (mobile) screen start-->
-                <div class="row hide-on-med-and-up buttom-icons">
-                    
-                        <div class="col s3">
-                            <a href="#" class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-.61.08-1.21.21-1.78L8.99 15v1c0 1.1.9 2 2 2v1.93C7.06 19.43 4 16.07 4 12zm13.89 5.4c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41C17.92 5.77 20 8.65 20 12c0 2.08-.81 3.98-2.11 5.4z"/></svg>Home</a>
-                        </div>
-                        <div class="col s3">
-                            <a href="#" class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>Search</a>
-                        </div>
-                        <div class="col s3">
-                            <a href="#" class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><g><rect fill="none" height="24" width="24"/></g><g><g><rect height="2" width="15" x="2" y="4"/><path d="M15,17h2v-3h1v-2l-1-5H2l-1,5v2h1v6h9v-6h4V17z M9,18H4v-4h5V18z M3.04,12l0.6-3h11.72l0.6,3H3.04z"/><polygon points="23,18 20,18 20,15 18,15 18,18 15,18 15,20 18,20 18,23 20,23 20,20 23,20"/></g></g></svg>Market</a>
-                        </div>
-                        <div class="col s3">
-                            <a href="#" class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#B6B7B9" width="60px" height="60px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M21 7.28V5c0-1.1-.9-2-2-2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-2.28c.59-.35 1-.98 1-1.72V9c0-.74-.41-1.37-1-1.72zM20 9v6h-7V9h7zM5 19V5h14v2h-6c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h6v2H5z"/><circle cx="16" cy="12" r="1.5"/></svg>Wallet</a>
-                        </div>
-                    
-                </div>
-                <!--Buttom navigation with icons for small (mobile) screen end-->
-                <!--Main content start-->
-                <div class="col m11 s12">
-                    <!--Slide show with top events start-->
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="mySlides">
-                                <img src="concert-slide.jpg" class="responsive-img">
-                                <div class="top-event valign-wrapper">
-                                    <div class="container">
-                                        <div class="col s12">
-                                            <h4>Suscipit, tenetur qui ipsam.</h4>
-                                            <p class="flow-text">Minus suscipit omnis a molestias, sed, in sunt quo nobis beatae.</p>
-                                            <a href="#" class="waves-effect waves-light btn-small explorebtn hide-on-small-only pink darken-1">explore</a>
-                                            <a href="#" class="btn-floating btn-small morebtn waves-effect waves-light hide-on-med-and-up right pink darken-1"><i class="material-icons">more_vert</i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mySlides">
-                                <img src="fairground-slide.jpg" class="responsive-img">
-                                <div class="top-event valign-wrapper">
-                                    <div class="container">
-                                        <div class="col s12">
-                                            <h4>Eos fuga sit officiis.</h4>
-                                            <p class="flow-text">Necessitatibus consequatur recusandae beatae eligendi nihil quis corporis in.</p>
-                                            <a href="#" class="waves-effect waves-light btn-small explorebtn hide-on-small-only pink darken-1">explore</a>
-                                            <a href="#" class="btn-floating btn-small morebtn waves-effect waves-light hide-on-med-and-up right pink darken-1"><i class="material-icons">more_vert</i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mySlides">
-                                <img src="soccer-slide.jpg" class="responsive-img">
-                                <div class="top-event valign-wrapper">
-                                    <div class="container">
-                                        <div class="col s12">
-                                            <h4>Odio ex, est nesciunt eos ea nam.</h4>
-                                            <p class="flow-text">Dolor nisi magni voluptatum quibusdam iure ipsa reprehenderit odio recusandae.</p>
-                                            <a href="#" class="waves-effect waves-light btn-small explorebtn hide-on-small-only pink darken-1">explore</a>
-                                            <a href="#" class="btn-floating btn-small morebtn waves-effect waves-light hide-on-med-and-up right pink darken-1"><i class="material-icons">more_vert</i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Slide show with top events end-->
-                    <!--Searchbar start-->
-                    <div class="row">
-                        <div class="col s12">
-                            <form action="#">
-                                <div class="input-field">
-                                    <input type="search" id="search" required>
-                                    <label for="search">Search your event<i class="material-icons right">search</i></label>                                    
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <!--<div class="row">
-                        <div class="col s12">
-                            <button class="btn searchbtn" type="submit" name="action">Search your event<i class="material-icons right">search</i></button>
-                        </div>
-                    </div>-->
-                    <!--Searchbar end-->
-                    <!--Latest Events start-->
-                    <div class="row valign-wrapper">
-                        <div class="col s6">
-                            <h5>Latest Events</h5>
-                        </div>
-                        <div class="col s6 right-align">
-                            <a class="dropdown-trigger " href="#!" data-target="dropdown1">From FEB-APR<i class="material-icons right">arrow_drop_down</i></a>
-                        </div>
-                    </div>
-                                        
-                    <div class="row">
-                        <div class="col s12 m6 l3">
-                            <div class="event">
-                                <div class="event-container">
-                                    <img class="responsive-img event-photo" src="concert.jpg">
-                                    <div class="event-calendar">
-                                        <div class="event-date">
-                                            <span><i class="material-icons-outlined">event</i></span>
-                                            <p>5th Aug</p>
-                                        </div>
-                                        <div class="event-time">
-                                            <span><i class="material-icons-outlined">access_time</i></span>
-                                            <p>06:00 PM</p>  
-                                        </div>
-                                    </div>
-                                    <div class="event-overlay">
-                                        <div class="event-overlay-text center-align">
-                                            <img src="medal.png" alt="medal">
-                                            <p>70.5</p>
-                                            <!--<button>Participate</button>-->
-                                            <a href="#" class="waves-effect waves-light btn-small explorebtn pink darken-1">participate</a>
-                                        </div>                            
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <h5>Event Title</h5>
-                                            <p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="row social">
-                                        <div class="col s3 favorite">
-                                            <a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;&nbsp;609</span>
-                                        </div>
-                                        <div class="col s4">
-                                            <a href="#"><span class="material-icons-outlined left">share</span>&nbsp;&nbsp;Share</a>
-                                        </div>
-                                        <div class="col s5">
-                                            <a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>                                 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m6 l3">
-                            <div class="event">
-                                <div class="event-container">
-                                    <img class="responsive-img event-photo" src="jazz.jpg">
-                                    <div class="event-calendar">
-                                        <div class="event-date">
-                                            <span><i class="material-icons-outlined">event</i></span>
-                                            <p>5th Aug</p>
-                                        </div>
-                                        <div class="event-time">
-                                            <span><i class="material-icons-outlined">access_time</i></span>
-                                            <p>06:00 PM</p>  
-                                        </div>
-                                    </div>
-                                    <div class="event-overlay">
-                                        <div class="event-overlay-text center-align">
-                                            <img src="medal.png" alt="medal">
-                                            <p>70.5</p>
-                                            <!--<button>Participate</button>-->
-                                            <a href="#" class="waves-effect waves-light btn-small explorebtn pink darken-1">participate</a>
-                                        </div>                            
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <h5>Event Title</h5>
-                                            <p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="row social">
-                                        <div class="col s3 favorite">
-                                            <a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;&nbsp;609</span>
-                                        </div>
-                                        <div class="col s4">
-                                            <a href="#"><span class="material-icons-outlined left">share</span>&nbsp;&nbsp;Share</a>
-                                        </div>
-                                        <div class="col s5">
-                                            <a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>                                 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m6 l3">
-                            <div class="event">
-                                <div class="event-container">
-                                    <img class="responsive-img event-photo" src="musician.jpg">
-                                    <div class="event-calendar">
-                                        <div class="event-date">
-                                            <span><i class="material-icons-outlined">event</i></span>
-                                            <p>5th Aug</p>
-                                        </div>
-                                        <div class="event-time">
-                                            <span><i class="material-icons-outlined">access_time</i></span>
-                                            <p>06:00 PM</p>  
-                                        </div>
-                                    </div>
-                                    <div class="event-overlay">
-                                        <div class="event-overlay-text center-align">
-                                            <img src="medal.png" alt="medal">
-                                            <p>70.5</p>
-                                            <!--<button>Participate</button>-->
-                                            <a href="#" class="waves-effect waves-light btn-small explorebtn pink darken-1">participate</a>
-                                        </div>                            
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <h5>Event Title</h5>
-                                            <p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="row social">
-                                        <div class="col s3 favorite">
-                                            <a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;&nbsp;609</span>
-                                        </div>
-                                        <div class="col s4">
-                                            <a href="#"><span class="material-icons-outlined left">share</span>&nbsp;&nbsp;Share</a>
-                                        </div>
-                                        <div class="col s5">
-                                            <a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>                                 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m6 l3">
-                            <div class="event">
-                                <div class="event-container">
-                                    <img class="responsive-img event-photo" src="sparkler.jpg">
-                                    <div class="event-calendar">
-                                        <div class="event-date">
-                                            <span><i class="material-icons-outlined">event</i></span>
-                                            <p>5th Aug</p>
-                                        </div>
-                                        <div class="event-time">
-                                            <span><i class="material-icons-outlined">access_time</i></span>
-                                            <p>06:00 PM</p>  
-                                        </div>
-                                    </div>
-                                    <div class="event-overlay">
-                                        <div class="event-overlay-text center-align">
-                                            <img src="medal.png" alt="medal">
-                                            <p>70.5</p>
-                                            <!--<button>Participate</button>-->
-                                            <a href="#" class="waves-effect waves-light btn-small explorebtn pink darken-1">participate</a>
-                                        </div>                            
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <h5>Event Title</h5>
-                                            <p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="row social">
-                                        <div class="col s3 favorite">
-                                            <a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;&nbsp;609</span>
-                                        </div>
-                                        <div class="col s4">
-                                            <a href="#"><span class="material-icons-outlined left">share</span>&nbsp;&nbsp;Share</a>
-                                        </div>
-                                        <div class="col s5">
-                                            <a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>                                 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col s12 m6 l3">
-                            <div class="event">
-                                <div class="event-container">
-                                    <img class="responsive-img event-photo" src="concert.jpg">
-                                    <div class="event-calendar">
-                                        <div class="event-date">
-                                            <span><i class="material-icons-outlined">event</i></span>
-                                            <p>5th Aug</p>
-                                        </div>
-                                        <div class="event-time">
-                                            <span><i class="material-icons-outlined">access_time</i></span>
-                                            <p>06:00 PM</p>  
-                                        </div>
-                                    </div>
-                                    <div class="event-overlay">
-                                        <div class="event-overlay-text center-align">
-                                            <img src="medal.png" alt="medal">
-                                            <p>70.5</p>
-                                            <!--<button>Participate</button>-->
-                                            <a href="#" class="waves-effect waves-light btn-small explorebtn pink darken-1">participate</a>
-                                        </div>                            
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <h5>Event Title</h5>
-                                            <p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="row social">
-                                        <div class="col s3 favorite">
-                                            <a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;&nbsp;609</span>
-                                        </div>
-                                        <div class="col s4">
-                                            <a href="#"><span class="material-icons-outlined left">share</span>&nbsp;&nbsp;Share</a>
-                                        </div>
-                                        <div class="col s5">
-                                            <a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>                                 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m6 l3">
-                            <div class="event">
-                                <div class="event-container">
-                                    <img class="responsive-img event-photo" src="jazz.jpg">
-                                    <div class="event-calendar">
-                                        <div class="event-date">
-                                            <span><i class="material-icons-outlined">event</i></span>
-                                            <p>5th Aug</p>
-                                        </div>
-                                        <div class="event-time">
-                                            <span><i class="material-icons-outlined">access_time</i></span>
-                                            <p>06:00 PM</p>  
-                                        </div>
-                                    </div>
-                                    <div class="event-overlay">
-                                        <div class="event-overlay-text center-align">
-                                            <img src="medal.png" alt="medal">
-                                            <p>70.5</p>
-                                            <!--<button>Participate</button>-->
-                                            <a href="#" class="waves-effect waves-light btn-small explorebtn pink darken-1">participate</a>
-                                        </div>                            
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <h5>Event Title</h5>
-                                            <p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="row social">
-                                        <div class="col s3 favorite">
-                                            <a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;&nbsp;609</span>
-                                        </div>
-                                        <div class="col s4">
-                                            <a href="#"><span class="material-icons-outlined left">share</span>&nbsp;&nbsp;Share</a>
-                                        </div>
-                                        <div class="col s5">
-                                            <a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>                                 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m6 l3">
-                            <div class="event">
-                                <div class="event-container">
-                                    <img class="responsive-img event-photo" src="musician.jpg">
-                                    <div class="event-calendar">
-                                        <div class="event-date">
-                                            <span><i class="material-icons-outlined">event</i></span>
-                                            <p>5th Aug</p>
-                                        </div>
-                                        <div class="event-time">
-                                            <span><i class="material-icons-outlined">access_time</i></span>
-                                            <p>06:00 PM</p>  
-                                        </div>
-                                    </div>
-                                    <div class="event-overlay">
-                                        <div class="event-overlay-text center-align">
-                                            <img src="medal.png" alt="medal">
-                                            <p>70.5</p>
-                                            <!--<button>Participate</button>-->
-                                            <a href="#" class="waves-effect waves-light btn-small explorebtn pink darken-1">participate</a>
-                                        </div>                            
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <h5>Event Title</h5>
-                                            <p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="row social">
-                                        <div class="col s3 favorite">
-                                            <a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;&nbsp;609</span>
-                                        </div>
-                                        <div class="col s4">
-                                            <a href="#"><span class="material-icons-outlined left">share</span>&nbsp;&nbsp;Share</a>
-                                        </div>
-                                        <div class="col s5">
-                                            <a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>                                 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m6 l3">
-                            <div class="event">
-                                <div class="event-container">
-                                    <img class="responsive-img event-photo" src="sparkler.jpg">
-                                    <div class="event-calendar">
-                                        <div class="event-date">
-                                            <span><i class="material-icons-outlined">event</i></span>
-                                            <p>5th Aug</p>
-                                        </div>
-                                        <div class="event-time">
-                                            <span><i class="material-icons-outlined">access_time</i></span>
-                                            <p>06:00 PM</p>  
-                                        </div>
-                                    </div>
-                                    <div class="event-overlay">
-                                        <div class="event-overlay-text center-align">
-                                            <img src="medal.png" alt="medal">
-                                            <p>70.5</p>
-                                            <!--<button>Participate</button>-->
-                                            <a href="#" class="waves-effect waves-light btn-small explorebtn pink darken-1">participate</a>
-                                        </div>                            
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col s12">
-                                            <h5>Event Title</h5>
-                                            <p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="row social">
-                                        <div class="col s3 favorite">
-                                            <a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;&nbsp;609</span>
-                                        </div>
-                                        <div class="col s4">
-                                            <a href="#"><span class="material-icons-outlined left">share</span>&nbsp;&nbsp;Share</a>
-                                        </div>
-                                        <div class="col s5">
-                                            <a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>                                 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Latest Events end-->
-                    <!--Upcoming Events start-->
-                    <div class="row valign-wrapper">
-                        <div class="col s6">
-                            <h5>Upcoming Events</h5>
-                        </div>
-                        <div class="col s6 right-align">
-                            <button id="prev" class="btn-small transparent"><i class="material-icons">arrow_back_ios</i></button>
-                            <button id="next" class="btn-small transparent"><i class="material-icons">arrow_forward_ios</i></button>
-                        </div>
-                    </div>
+	<header>
+		<!--Navigation in header start-->
+		<nav class="transparent">
+			<div class="nav-wrapper">
+				<div class="container">
+					<a href="#!" class="brand-logo left"><img class="responsive-img" src="logo_white.png"></a>
+					<a href="#" data-target="mobile" class="sidenav-trigger right hide-on-med-and-up"><i class="material-icons">menu</i></a>
+					<ul class="right hide-on-small-only">
+						<li><a href="#">Explore</a></li>
+						<li><a href="#">Dashboard</a></li>
+						<li><a href="#">Create an event</a></li>
+						<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Hello, Username<i class="material-icons right">arrow_drop_down</i></a></li>
+					</ul>
+					<!--Dropdown with user account settings-->
+					<div id="dropdown1" class="dropdown-content center-align">
+						<img src="iconuser.png" alt="" class="responsive-img circle">
+						<p>Unername / Lastname</p>
+						<p>user@gmail.com</p>
+						<hr>
+						<ul>
+							<li><a href="#!"><span class="material-icons left">person_outline</span>Account details</a></li>
+							<li><a href="#!"><span class="material-icons-outlined left">contact_support</span>Support</a></li>
+							<li><a href="#!"><span class="material-icons left">exit_to_app</span>Sign out</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Sidenav for small (mobile) screen-->    
+		<ul class="sidenav" id="mobile">
+			<li><a href="#">Explore</a></li>
+			<li><a href="#">Dashboard</a></li>
+			<li><a href="#">Create an event</a></li>
+			<li><a class="dropdown-trigger" href="#!" data-target="dropdown">Hello, Username<i class="material-icons right">arrow_drop_down</i></a></li>
+		</ul>
+		<!--Dropdown with user account settings-->
+		<div id="dropdown" class="dropdown-content center-align">
+			<img src="iconuser.png" alt="" class="responsive-img circle">
+			<p>Unername / Lastname</p>
+			<p>user@gmail.com</p>
+			<hr>
+			<ul>
+				<li><a href="#!"><span class="material-icons">person_outline</span>Account details</a></li>
+				<li><a href="#!"><span class="material-icons-outlined">contact_support</span>Support</a></li>
+				<li><a href="#!"><span class="material-icons">exit_to_app</span>Sign out</a></li>
+			</ul>
+		</div>
 
-                    <div class="row">
-                        <div class="col s12">
-                            <div id="slider">
-                                <div id="content">
-                                    <div class="item">
-                                        <img src="businessman.jpg">
-                                        <div class="pink darken-1 upcoming-event-date center-align">
-                                            <h5>15</h5>
-                                            <p>June</p>
-                                        </div>
-                                        <div class="upcoming-event-text">
-                                            <h5 class="white-text">Event Title</h5>
-                                            <span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
-                                            <a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="meeting.jpg">
-                                        <div class="pink darken-1 upcoming-event-date center-align">
-                                            <h5>15</h5>
-                                            <p>June</p>
-                                        </div>
-                                        <div class="upcoming-event-text">
-                                            <h5 class="white-text">Event Title</h5>
-                                            <span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
-                                            <a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="party.jpg">
-                                        <div class="pink darken-1 upcoming-event-date center-align">
-                                            <h5>15</h5>
-                                            <p>June</p>
-                                        </div>
-                                        <div class="upcoming-event-text">
-                                            <h5 class="white-text">Event Title</h5>
-                                            <span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
-                                            <a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="businessman.jpg">
-                                        <div class="pink darken-1 upcoming-event-date center-align">
-                                            <h5>15</h5>
-                                            <p>June</p>
-                                        </div>
-                                        <div class="upcoming-event-text">
-                                            <h5 class="white-text">Event Title</h5>
-                                            <span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
-                                            <a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="meeting.jpg">
-                                        <div class="pink darken-1 upcoming-event-date center-align">
-                                            <h5>15</h5>
-                                            <p>June</p>
-                                        </div>
-                                        <div class="upcoming-event-text">
-                                            <h5 class="white-text">Event Title</h5>
-                                            <span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
-                                            <a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="party.jpg">
-                                        <div class="pink darken-1 upcoming-event-date center-align">
-                                            <h5>15</h5>
-                                            <p>June</p>
-                                        </div>
-                                        <div class="upcoming-event-text">
-                                            <h5 class="white-text">Event Title</h5>
-                                            <span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
-                                            <a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="businessman.jpg">
-                                        <div class="pink darken-1 upcoming-event-date center-align">
-                                            <h5>15</h5>
-                                            <p>June</p>
-                                        </div>
-                                        <div class="upcoming-event-text">
-                                            <h5 class="white-text">Event Title</h5>
-                                            <span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
-                                            <a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Upcoming Events end-->
-                    <!--Events Category start-->
-                    <div class="row">
-                        <div class="col s12">
-                            <h5>Events Category</h5>
-                        </div>
-                    </div>
+		<!--Navigation in header end-->
+	</header>
+	<main>
+		<div class="container">
+			<div class="row">
+				<!--Leftside and buttom (for small /mobile/ screen) navigation with icons start-->
+				<div class="col m1 s12 buttom-icons center-align">
+					<a href="index.html" class="side-icons">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-.61.08-1.21.21-1.78L8.99 15v1c0 1.1.9 2 2 2v1.93C7.06 19.43 4 16.07 4 12zm13.89 5.4c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41C17.92 5.77 20 8.65 20 12c0 2.08-.81 3.98-2.11 5.4z"/></svg>
+						Home
+					</a>
+					<a href="#" class="side-icons">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+						Search
+					</a>
+					<a href="market.html" class="side-icons">
+						<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><g><rect fill="none" height="24" width="24"/></g><g><g><rect height="2" width="15" x="2" y="4"/><path d="M15,17h2v-3h1v-2l-1-5H2l-1,5v2h1v6h9v-6h4V17z M9,18H4v-4h5V18z M3.04,12l0.6-3h11.72l0.6,3H3.04z"/><polygon points="23,18 20,18 20,15 18,15 18,18 15,18 15,20 18,20 18,23 20,23 20,20 23,20"/></g></g></svg>
+						Market
+					</a>
+					<a href="#" class="side-icons">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#B6B7B9" width="60px" height="60px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M21 7.28V5c0-1.1-.9-2-2-2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-2.28c.59-.35 1-.98 1-1.72V9c0-.74-.41-1.37-1-1.72zM20 9v6h-7V9h7zM5 19V5h14v2h-6c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h6v2H5z"/><circle cx="16" cy="12" r="1.5"/></svg>
+						Wallet
+					</a>
+				</div>
+				<!--Leftside and buttom (for small /mobile/ screen) navigation with icons end-->
+				<!--Main content start-->
+				<div class="col m11 s12">
+					<!--Slide show with top events start-->
+					<div class="row">
+						<div class="col s12">
+							<div class="mySlides">
+								<img src="concert-slide.jpg" class="responsive-img">
+								<div class="top-event valign-wrapper">
+									<div class="container">
+										<div class="col s12">
+											<h4>Suscipit, tenetur qui ipsam.</h4>
+											<p class="flow-text">Minus suscipit omnis a molestias, sed, in sunt quo nobis beatae.</p>
+											<a href="#" class="waves-effect waves-light btn-small explorebtn hide-on-small-only">explore</a>
+											<a href="#" class="btn-floating btn-small morebtn waves-effect waves-light hide-on-med-and-up right"><i class="material-icons">more_vert</i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mySlides">
+								<img src="fairground-slide.jpg" class="responsive-img">
+								<div class="top-event valign-wrapper">
+									<div class="container">
+										<div class="col s12">
+											<h4>Eos fuga sit officiis.</h4>
+											<p class="flow-text">Necessitatibus consequatur recusandae beatae eligendi nihil quis corporis in.</p>
+											<a href="#" class="waves-effect waves-light btn-small explorebtn hide-on-small-only">explore</a>
+											<a href="#" class="btn-floating btn-small morebtn waves-effect waves-light hide-on-med-and-up right"><i class="material-icons">more_vert</i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mySlides">
+								<img src="soccer-slide.jpg" class="responsive-img">
+								<div class="top-event valign-wrapper">
+									<div class="container">
+										<div class="col s12">
+											<h4>Odio ex, est nesciunt eos ea nam.</h4>
+											<p class="flow-text">Dolor nisi magni voluptatum quibusdam iure ipsa reprehenderit odio recusandae.</p>
+											<a href="#" class="waves-effect waves-light btn-small explorebtn hide-on-small-only">explore</a>
+											<a href="#" class="btn-floating btn-small morebtn waves-effect waves-light hide-on-med-and-up right"><i class="material-icons">more_vert</i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Slide show with top events end-->
+					<!--Searchbar start-->
+					<div class="row">
+						<div class="col s12">
+							<form action="#">
+								<div class="input-field">
+									<input type="search" id="search" required>
+									<label for="search">Search your event<i class="material-icons right">search</i></label>                                    
+								</div>
+							</form>
+						</div>
+					</div>
+					<!--Searchbar end-->
+					<!--Latest Events start-->
+					<div class="row valign-wrapper">
+						<div class="col s6">
+							<h5>Latest Events</h5>
+						</div>
+						<div class="col s6 right-align">
+							<p>From FEB-APR<i class="material-icons right">arrow_drop_down</i></p>
+						</div>
+					</div>
+										
+					<div class="row">
+						<div class="col s12 m6 l3">
+							<div class="event">
+								<div class="event-container">
+									<img class="responsive-img event-photo" src="concert.jpg">
+									<div class="event-calendar">
+										<div class="event-date">
+											<span class="material-icons-outlined">event</span>
+											<p>5th Aug</p>
+										</div>
+										<div class="event-time">
+											<span class="material-icons-outlined">access_time</span>
+											<p>06:00 PM</p>  
+										</div>
+									</div>
+									<div class="event-overlay">
+										<div class="event-overlay-text">
+											<img src="medal.png" alt="medal">
+											<p>70.5</p>
+											<a href="#" class="waves-effect waves-light btn-small explorebtn">participate</a>
+										</div>                            
+									</div>
+								</div>
+								<div class="container">
+									<div class="row">
+										<div class="col s12">
+											<h5>Event Title</h5>
+											<p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
+										</div>
+									</div>
+									<hr>
+									<div class="row social">
+										<div class="col s3 favorite">
+											<a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;609</span>
+										</div>
+										<div class="col s4">
+											<a href="#"><span class="material-icons-outlined left">share</span>&nbsp;Share</a>
+										</div>
+										<div class="col s5">
+											<a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>                                 
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l3">
+							<div class="event">
+								<div class="event-container">
+									<img class="responsive-img event-photo" src="jazz.jpg">
+									<div class="event-calendar">
+										<div class="event-date">
+											<span class="material-icons-outlined">event</span>
+											<p>5th Aug</p>
+										</div>
+										<div class="event-time">
+											<span class="material-icons-outlined">access_time</span>
+											<p>06:00 PM</p>  
+										</div>
+									</div>
+									<div class="event-overlay">
+										<div class="event-overlay-text">
+											<img src="medal.png" alt="medal">
+											<p>70.5</p>
+											<a href="#" class="waves-effect waves-light btn-small explorebtn">participate</a>
+										</div>                            
+									</div>
+								</div>
+								<div class="container">
+									<div class="row">
+										<div class="col s12">
+											<h5>Event Title</h5>
+											<p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
+										</div>
+									</div>
+									<hr>
+									<div class="row social">
+										<div class="col s3 favorite">
+											<a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;609</span>
+										</div>
+										<div class="col s4">
+											<a href="#"><span class="material-icons-outlined left">share</span>&nbsp;Share</a>
+										</div>
+										<div class="col s5">
+											<a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>                                 
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l3">
+							<div class="event">
+								<div class="event-container">
+									<img class="responsive-img event-photo" src="musician.jpg">
+									<div class="event-calendar">
+										<div class="event-date">
+											<span class="material-icons-outlined">event</span>
+											<p>5th Aug</p>
+										</div>
+										<div class="event-time">
+											<span class="material-icons-outlined">access_time</span>
+											<p>06:00 PM</p>  
+										</div>
+									</div>
+									<div class="event-overlay">
+										<div class="event-overlay-text">
+											<img src="medal.png" alt="medal">
+											<p>70.5</p>
+											<a href="#" class="waves-effect waves-light btn-small explorebtn">participate</a>
+										</div>                            
+									</div>
+								</div>
+								<div class="container">
+									<div class="row">
+										<div class="col s12">
+											<h5>Event Title</h5>
+											<p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
+										</div>
+									</div>
+									<hr>
+									<div class="row social">
+										<div class="col s3 favorite">
+											<a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;609</span>
+										</div>
+										<div class="col s4">
+											<a href="#"><span class="material-icons-outlined left">share</span>&nbsp;Share</a>
+										</div>
+										<div class="col s5">
+											<a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>                                 
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l3">
+							<div class="event">
+								<div class="event-container">
+									<img class="responsive-img event-photo" src="sparkler.jpg">
+									<div class="event-calendar">
+										<div class="event-date">
+											<span class="material-icons-outlined">event</span>
+											<p>5th Aug</p>
+										</div>
+										<div class="event-time">
+											<span class="material-icons-outlined">access_time</span>
+											<p>06:00 PM</p>  
+										</div>
+									</div>
+									<div class="event-overlay">
+										<div class="event-overlay-text">
+											<img src="medal.png" alt="medal">
+											<p>70.5</p>
+											<a href="#" class="waves-effect waves-light btn-small explorebtn">participate</a>
+										</div>                            
+									</div>
+								</div>
+								<div class="container">
+									<div class="row">
+										<div class="col s12">
+											<h5>Event Title</h5>
+											<p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
+										</div>
+									</div>
+									<hr>
+									<div class="row social">
+										<div class="col s3 favorite">
+											<a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;609</span>
+										</div>
+										<div class="col s4">
+											<a href="#"><span class="material-icons-outlined left">share</span>&nbsp;Share</a>
+										</div>
+										<div class="col s5">
+											<a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>                                 
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12 m6 l3">
+							<div class="event">
+								<div class="event-container">
+									<img class="responsive-img event-photo" src="concert.jpg">
+									<div class="event-calendar">
+										<div class="event-date">
+											<span class="material-icons-outlined">event</span>
+											<p>5th Aug</p>
+										</div>
+										<div class="event-time">
+											<span class="material-icons-outlined">access_time</span>
+											<p>06:00 PM</p>  
+										</div>
+									</div>
+									<div class="event-overlay">
+										<div class="event-overlay-text">
+											<img src="medal.png" alt="medal">
+											<p>70.5</p>
+											<a href="#" class="waves-effect waves-light btn-small explorebtn">participate</a>
+										</div>                            
+									</div>
+								</div>
+								<div class="container">
+									<div class="row">
+										<div class="col s12">
+											<h5>Event Title</h5>
+											<p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
+										</div>
+									</div>
+									<hr>
+									<div class="row social">
+										<div class="col s3 favorite">
+											<a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;609</span>
+										</div>
+										<div class="col s4">
+											<a href="#"><span class="material-icons-outlined left">share</span>&nbsp;Share</a>
+										</div>
+										<div class="col s5">
+											<a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>                                 
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l3">
+							<div class="event">
+								<div class="event-container">
+									<img class="responsive-img event-photo" src="jazz.jpg">
+									<div class="event-calendar">
+										<div class="event-date">
+											<span class="material-icons-outlined">event</span>
+											<p>5th Aug</p>
+										</div>
+										<div class="event-time">
+											<span class="material-icons-outlined">access_time</span>
+											<p>06:00 PM</p>  
+										</div>
+									</div>
+									<div class="event-overlay">
+										<div class="event-overlay-text">
+											<img src="medal.png" alt="medal">
+											<p>70.5</p>
+											<a href="#" class="waves-effect waves-light btn-small explorebtn">participate</a>
+										</div>                            
+									</div>
+								</div>
+								<div class="container">
+									<div class="row">
+										<div class="col s12">
+											<h5>Event Title</h5>
+											<p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
+										</div>
+									</div>
+									<hr>
+									<div class="row social">
+										<div class="col s3 favorite">
+											<a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;609</span>
+										</div>
+										<div class="col s4">
+											<a href="#"><span class="material-icons-outlined left">share</span>&nbsp;Share</a>
+										</div>
+										<div class="col s5">
+											<a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l3">
+							<div class="event">
+								<div class="event-container">
+									<img class="responsive-img event-photo" src="musician.jpg">
+									<div class="event-calendar">
+										<div class="event-date">
+											<span class="material-icons-outlined">event</span>
+											<p>5th Aug</p>
+										</div>
+										<div class="event-time">
+											<span class="material-icons-outlined">access_time</span>
+											<p>06:00 PM</p>  
+										</div>
+									</div>
+									<div class="event-overlay">
+										<div class="event-overlay-text">
+											<img src="medal.png" alt="medal">
+											<p>70.5</p>
+											<a href="#" class="waves-effect waves-light btn-small explorebtn">participate</a>
+										</div>                            
+									</div>
+								</div>
+								<div class="container">
+									<div class="row">
+										<div class="col s12">
+											<h5>Event Title</h5>
+											<p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
+										</div>
+									</div>
+									<hr>
+									<div class="row social">
+										<div class="col s3 favorite">
+											<a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;609</span>
+										</div>
+										<div class="col s4">
+											<a href="#"><span class="material-icons-outlined left">share</span>&nbsp;Share</a>
+										</div>
+										<div class="col s5">
+											<a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>                                
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l3">
+							<div class="event">
+								<div class="event-container">
+									<img class="responsive-img event-photo" src="sparkler.jpg">
+									<div class="event-calendar">
+										<<div class="event-date">
+											<span class="material-icons-outlined">event</span>
+											<p>5th Aug</p>
+										</div>
+										<div class="event-time">
+											<span class="material-icons-outlined">access_time</span>
+											<p>06:00 PM</p>  
+										</div>
+									</div>
+									<div class="event-overlay">
+										<div class="event-overlay-text">
+											<img src="medal.png" alt="medal">
+											<p>70.5</p>
+											<a href="#" class="waves-effect waves-light btn-small explorebtn">participate</a>
+										</div>                            
+									</div>
+								</div>
+								<div class="container">
+									<div class="row">
+										<div class="col s12">
+											<h5>Event Title</h5>
+											<p class="grey-text text-lighten-1">Lorem ipsum dolor sit amet consur adipisicing elit.</p>
+										</div>
+									</div>
+									<hr>
+									<div class="row social">
+										<div class="col s3 favorite">
+											<a href="#" class="grey-text text-lighten-1"><span class="material-icons-outlined left">favorite</span></a><span class="grey-text text-lighten-1">&nbsp;609</span>
+										</div>
+										<div class="col s4">
+											<a href="#"><span class="material-icons-outlined left">share</span>&nbsp;Share</a>
+										</div>
+										<div class="col s5">
+											<a href="#"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>                                 
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Latest Events end-->
+					<!--Upcoming Events start-->
+					<div class="row valign-wrapper">
+						<div class="col s6">
+							<h5>Upcoming Events</h5>
+						</div>
+						<div class="col s6 right-align">
+							<button id="prev" class="btn-small transparent"><i class="material-icons">arrow_back_ios</i></button>
+							<button id="next" class="btn-small transparent"><i class="material-icons">arrow_forward_ios</i></button>
+						</div>
+					</div>
 
-                    <div class="row">
-                        <div class="col s6 m2 center-align">
-                            <div class="events-category">
-                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 6h-2.18c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.05 0-1.96.54-2.5 1.35l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 11 8.76l1-1.36 1 1.36L15.38 12 17 10.83 14.92 8H20v6z"/></svg><br>Party</a> 
-                            </div>                                                       
-                        </div>
-                        <div class="col s6 m2 center-align">
-                            <div class="events-category">
-                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm7.48 7.16l-5.01-.43-2-4.71c3.21.19 5.91 2.27 7.01 5.14zm-5.07 6.26L12 13.98l-2.39 1.44.63-2.72-2.11-1.83 2.78-.24L12 8.06l1.09 2.56 2.78.24-2.11 1.83.64 2.73zm-2.86-11.4l-2 4.72-5.02.43c1.1-2.88 3.8-4.97 7.02-5.15zM4 12c0-.64.08-1.26.23-1.86l3.79 3.28-1.11 4.75C5.13 16.7 4 14.48 4 12zm3.84 6.82L12 16.31l4.16 2.5c-1.22.75-2.64 1.19-4.17 1.19-1.52 0-2.94-.44-4.15-1.18zm9.25-.65l-1.11-4.75 3.79-3.28c.14.59.23 1.22.23 1.86 0 2.48-1.14 4.7-2.91 6.17z"/></svg><br>Gala</a> 
-                            </div>                                                       
-                        </div>
-                        <div class="col s6 m2 center-align">
-                            <div class="events-category">
-                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15 8v8H5V8h10m1-2H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4V7c0-.55-.45-1-1-1z"/></svg><br>Film</a> 
-                            </div>                                                       
-                        </div>
-                        <div class="col s6 m2 center-align">
-                            <div class="events-category">
-                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 6h-2.18c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.05 0-1.96.54-2.5 1.35l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 11 8.76l1-1.36 1 1.36L15.38 12 17 10.83 14.92 8H20v6z"/></svg><br>Party</a> 
-                            </div>                                                       
-                        </div>
-                        <div class="col s6 m2 center-align">
-                            <div class="events-category">
-                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm7.48 7.16l-5.01-.43-2-4.71c3.21.19 5.91 2.27 7.01 5.14zm-5.07 6.26L12 13.98l-2.39 1.44.63-2.72-2.11-1.83 2.78-.24L12 8.06l1.09 2.56 2.78.24-2.11 1.83.64 2.73zm-2.86-11.4l-2 4.72-5.02.43c1.1-2.88 3.8-4.97 7.02-5.15zM4 12c0-.64.08-1.26.23-1.86l3.79 3.28-1.11 4.75C5.13 16.7 4 14.48 4 12zm3.84 6.82L12 16.31l4.16 2.5c-1.22.75-2.64 1.19-4.17 1.19-1.52 0-2.94-.44-4.15-1.18zm9.25-.65l-1.11-4.75 3.79-3.28c.14.59.23 1.22.23 1.86 0 2.48-1.14 4.7-2.91 6.17z"/></svg><br>Gala</a> 
-                            </div>                                                       
-                        </div>
-                        <div class="col s6 m2 center-align">
-                            <div class="events-category">
-                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15 8v8H5V8h10m1-2H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4V7c0-.55-.45-1-1-1z"/></svg><br>Film</a> 
-                            </div>                                                       
-                        </div>
-                    </div>
-                    <!--Events Category end-->
-                </div>
-                <!--Main content end-->
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col s6">
-                    <a href="#">Copyright 2020. All right reserved inLARB Holdings</a></div>
-                <div class="col s2">
-                    <a href="#">About inLARB</a>
-                </div>
-                <div class="col s2">
-                    <a href="#">Privacy Policy</a>
-                </div>
-                <div class="col s2">
-                    <a href="#">Terms & Conditions</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js" integrity="sha256-6DDZX77BrYnAmK9a3N3tvNPtyTIk1q1w9iW+UBtot3Y=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0=" crossorigin="anonymous"></script>
-    <script src="javascript.js"></script>    
+					<div class="row">
+						<div class="col s12">
+							<div id="slider">
+								<div id="content">
+									<div class="item">
+										<img src="businessman.jpg">
+										<div class="upcoming-event-date center-align">
+											<h5>15</h5>
+											<p>June</p>
+										</div>
+										<div class="upcoming-event-text">
+											<h5 class="white-text">Event Title</h5>
+											<span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
+											<a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>
+									</div>
+									<div class="item">
+										<img src="meeting.jpg">
+										<div class="upcoming-event-date center-align">
+											<h5>15</h5>
+											<p>June</p>
+										</div>
+										<div class="upcoming-event-text">
+											<h5 class="white-text">Event Title</h5>
+											<span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
+											<a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>
+									</div>
+									<div class="item">
+										<img src="party.jpg">
+										<div class="upcoming-event-date center-align">
+											<h5>15</h5>
+											<p>June</p>
+										</div>
+										<div class="upcoming-event-text">
+											<h5 class="white-text">Event Title</h5>
+											<span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
+											<a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>
+									</div>
+									<div class="item">
+										<img src="businessman.jpg">
+										<div class="upcoming-event-date center-align">
+											<h5>15</h5>
+											<p>June</p>
+										</div>
+										<div class="upcoming-event-text">
+											<h5 class="white-text">Event Title</h5>
+											<span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
+											<a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>
+									</div>
+									<div class="item">
+										<img src="meeting.jpg">
+										<div class="upcoming-event-date center-align">
+											<h5>15</h5>
+											<p>June</p>
+										</div>
+										<div class="upcoming-event-text">
+											<h5 class="white-text">Event Title</h5>
+											<span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
+											<a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>
+									</div>
+									<div class="item">
+										<img src="party.jpg">
+										<div class="upcoming-event-date center-align">
+											<h5>15</h5>
+											<p>June</p>
+										</div>
+										<div class="upcoming-event-text">
+											<h5 class="white-text">Event Title</h5>
+											<span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
+											<a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>
+									</div>
+									<div class="item">
+										<img src="businessman.jpg">
+										<div class="upcoming-event-date center-align">
+											<h5>15</h5>
+											<p>June</p>
+										</div>
+										<div class="upcoming-event-text">
+											<h5 class="white-text">Event Title</h5>
+											<span class="grey-text text-lighten-1">Lorem ipsum dolor.</span>
+											<a href="#" class="right"><span class="material-icons-outlined right">chevron_right</span>Read more</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Upcoming Events end-->
+					<!--Events Category start-->
+					<div class="row">
+						<div class="col s12">
+							<h5>Events Category</h5>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col s6 m2">
+							<div class="events-category center-align">
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 6h-2.18c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.05 0-1.96.54-2.5 1.35l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 11 8.76l1-1.36 1 1.36L15.38 12 17 10.83 14.92 8H20v6z"/></svg><br>Party</a> 
+							</div>                                                       
+						</div>
+						<div class="col s6 m2">
+							<div class="events-category center-align">
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm7.48 7.16l-5.01-.43-2-4.71c3.21.19 5.91 2.27 7.01 5.14zm-5.07 6.26L12 13.98l-2.39 1.44.63-2.72-2.11-1.83 2.78-.24L12 8.06l1.09 2.56 2.78.24-2.11 1.83.64 2.73zm-2.86-11.4l-2 4.72-5.02.43c1.1-2.88 3.8-4.97 7.02-5.15zM4 12c0-.64.08-1.26.23-1.86l3.79 3.28-1.11 4.75C5.13 16.7 4 14.48 4 12zm3.84 6.82L12 16.31l4.16 2.5c-1.22.75-2.64 1.19-4.17 1.19-1.52 0-2.94-.44-4.15-1.18zm9.25-.65l-1.11-4.75 3.79-3.28c.14.59.23 1.22.23 1.86 0 2.48-1.14 4.7-2.91 6.17z"/></svg><br>Gala</a> 
+							</div>                                                       
+						</div>
+						<div class="col s6 m2">
+							<div class="events-category center-align">
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15 8v8H5V8h10m1-2H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4V7c0-.55-.45-1-1-1z"/></svg><br>Film</a> 
+							</div>                                                       
+						</div>
+						<div class="col s6 m2">
+							<div class="events-category center-align">
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 6h-2.18c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.05 0-1.96.54-2.5 1.35l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 11 8.76l1-1.36 1 1.36L15.38 12 17 10.83 14.92 8H20v6z"/></svg><br>Party</a> 
+							</div>                                                       
+						</div>
+						<div class="col s6 m2">
+							<div class="events-category center-align">
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm7.48 7.16l-5.01-.43-2-4.71c3.21.19 5.91 2.27 7.01 5.14zm-5.07 6.26L12 13.98l-2.39 1.44.63-2.72-2.11-1.83 2.78-.24L12 8.06l1.09 2.56 2.78.24-2.11 1.83.64 2.73zm-2.86-11.4l-2 4.72-5.02.43c1.1-2.88 3.8-4.97 7.02-5.15zM4 12c0-.64.08-1.26.23-1.86l3.79 3.28-1.11 4.75C5.13 16.7 4 14.48 4 12zm3.84 6.82L12 16.31l4.16 2.5c-1.22.75-2.64 1.19-4.17 1.19-1.52 0-2.94-.44-4.15-1.18zm9.25-.65l-1.11-4.75 3.79-3.28c.14.59.23 1.22.23 1.86 0 2.48-1.14 4.7-2.91 6.17z"/></svg><br>Gala</a> 
+							</div>                                                       
+						</div>
+						<div class="col s6 m2">
+							<div class="events-category center-align">
+								<a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15 8v8H5V8h10m1-2H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4V7c0-.55-.45-1-1-1z"/></svg><br>Film</a> 
+							</div>                                                       
+						</div>
+					</div>
+					<!--Events Category end-->
+				</div>
+				<!--Main content end-->
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col s6">
+					<a href="#">Copyright 2020. All right reserved inLARB Holdings</a></div>
+				<div class="col s2">
+					<a href="#">About inLARB</a>
+				</div>
+				<div class="col s2">
+					<a href="#">Privacy Policy</a>
+				</div>
+				<div class="col s2">
+					<a href="#">Terms & Conditions</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js" integrity="sha256-6DDZX77BrYnAmK9a3N3tvNPtyTIk1q1w9iW+UBtot3Y=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0=" crossorigin="anonymous"></script>
+	<script src="javascript.js"></script>    
 </body>
 </html>
